@@ -1,0 +1,29 @@
+
+/* p's do superior */
+
+.one {
+    font-weight: 700;
+    line-height: 1.25rem;
+    color:  var(--bright-yellow);
+    margin-bottom: 1rem;
+}
+
+.two {
+    line-height: 1.625rem;
+    color: var(--grayish-blue);
+    font-size: 0.875rem;
+
+}
+
+.superior {
+    padding-inline: 1.5rem;
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    border-top-left-radius:  5px;
+    border-top-right-radius: 5px;
+}
+
+.esquerda section {
+    background: var(--cyan);
+    padding-inline: 1.5rem;
+}
