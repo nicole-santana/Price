@@ -23,7 +23,29 @@
     border-top-right-radius: 5px;
 }
 
-.esquerda section {
-    background: var(--cyan);
+.esquerda  {
+    background: var(--light-cyan);
     padding-inline: 1.5rem;
+    
+}
+
+.primeiro_p {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    margin-right: 0.75rem;
+
+}
+
+.segundo_p {
+    color: var(--white);
+    opacity: 0.5;
+
+}
+
+.esquerda div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
 }
