@@ -1,0 +1,53 @@
+@media (min-width:650px) {
+    .inferior {
+        display: flex;
+    }
+
+    .esquerda ,
+    .direita {
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    main{
+        max-width: 40rem;
+        padding: 0%;
+    
+        /* Coloque o main no centro da horizontal e da vertical */
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .superior {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding: 2.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .superior p::first-child {
+        font-size: 1.125rem;
+    }
+
+    .superior p::last-child {
+        font-size: 1rem;
+    }
+
+    .esquerda {
+        border-bottom-left-radius: 8px;
+    }
+
+    .direita {
+        border-bottom-left-radius: 0;
+        break-before: 8px;
+    }
+}
